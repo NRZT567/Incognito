@@ -8,7 +8,17 @@ async function options(app) {
     app.search.input.style.display = 'none';
 
     const tabs = new Tabs(app);
-    const themes = [
+    const selection = new Selection(app);
+
+    const backgroundSelection = new Selection(app);
+    
+
+    [
+      
+        {
+          id: 'juniper',
+          content: 'Juniper',
+        },
         {
             id: 'ocean',
             content: 'Ocean',
@@ -33,21 +43,17 @@ async function options(app) {
             id: 'resilent',
             content: 'Resilient',
         }
-    ]
-          
-          
-    const selection = new Selection(app);
-
-    const backgroundSelection = new Selection(app);
-    
-
-    themes.forEach(entry => {
+    ].forEach(entry => {
         selection.createSelector(entry.id, app.createElement('li', entry.content, {
             class: 'selector'
         }))
     });
 
     [
+        {
+            id: 'draw',
+            content: 'Draw',
+        },
         {
             id: 'stars',
             content: 'Stars',
@@ -82,6 +88,11 @@ async function options(app) {
             case 'particles':
                 app.destroyParticles();
                 particlesJS.load('.particles', './json/particles.json'); 
+                break;
+            case 'draw':
+                app.destroyParticles();
+                particlesJS.load('.particles', './json/draw.json'); 
+                break;
             };
         };
 
@@ -386,4 +397,4 @@ async function createAbout(app) {
 
 };
 
-export { options }
+export { options };
