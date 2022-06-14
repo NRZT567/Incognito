@@ -3,9 +3,9 @@ const tips = [
     'Modify Incognitos appearance & browser tab in <a href="#settings">settings.</a>',
     'You can enable about:blank tab cloaking in <a href="#settings">settings.</a>',
     'Access popular media & sites easily in <a href="#apps">apps.</a>',
-    'This unofficial Incognito version is made by G&#173;it&#173;Hu&#173;b user IDo&#173;n&#173;tCod&#173;ee.',   
+    'This unofficial Incognito version 2.0 is made by a GitHub user N&#173;r&#173;z&#173;t.',   
     'Join our <a href="#community">d&#173;i&#173;sco&#173;rd</a> ( not official )',
-    'Support Incognito at our <a href="https://www.patreon.com/incognitotn">Patreon.</a>'
+    'incognito discord bot is coming soon'
 ];
 
 
