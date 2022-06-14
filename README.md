@@ -16,11 +16,19 @@
          
 <div align="center">
          To get started, press one of the buttons above to deploy Incognito
+         <br>
+         <br>
+         You can find more info on the <a href="https://github.com/IDontCodee/Incognito/">wiki</a>
+         <br>
+         <br>
+         If that does not answer your question or you want to share the link you made, join our <a href="#discord-server">Discord server</a>
 </div>
 
-## Overview
+## Discord Server
 
-You can find more info over on the [Wiki](https://github.com/IDontCodee/Incognito/wiki)
+[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/J3VPy5Vy8x)
+
+## Overview
 
 - [Features](#features)
 - [FAQ](#faq)
