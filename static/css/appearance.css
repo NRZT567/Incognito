@@ -22,7 +22,15 @@ body[data-appearance="morning"] {
     --scrollbar-thumb-color: rgb(32, 148, 252, 0.3);
     --scrollbar-track-color: rgb(32, 148, 252, 0.1);
 }
-
+body[data-appearance="juniper"] {
+    --background: #98fb98;
+    --header-background: #90ee90;
+    --header-shadow: rgba(0)0, 0, 0.1) 0px 5px 10px 0px;
+    --text-color: #8fbc8f;
+    --accent: #adff2f;
+    --scrollbar-thumb-color: #00ff00;
+    --scrollbar-track-color: #00ff7f;
+}
 body[data-appearance="resilent"] {
     --border-color: rgb(255, 255, 255, .2);
     --text-color: #FFF;
@@ -68,4 +76,4 @@ body[data-appearance=space] {
     background-attachment:fixed;
     background-size: cover;
     background-position: center; 
-}
+}   
