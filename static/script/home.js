@@ -1,7 +1,7 @@
 
 const tips = [
     'Modify Incognitos appearance & browser tab in <a href="#settings">settings.</a>',
-    'You can enable about:blank tab cloaking in <a href="#settings">settings.</a>',
+    'You can enable about:blank tab cloaking in <a href="javascript:goBlank();">here</a>',
     'Access popular media & sites easily in <a href="#apps">apps.</a>',
     'This unofficial Incognito version 2.0 is made by a GitHub user N&#173;r&#173;z&#173;t.',   
     'Join our <a href="#community">d&#173;i&#173;sco&#173;rd</a> ( not official )',
